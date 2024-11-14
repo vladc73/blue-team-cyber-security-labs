@@ -17,7 +17,8 @@ Your task is to examine network traffic in the provided PCAP files to identify k
 
 ### Steps:
 1.  (File => Traffic-1) What is the amount of bandwidth being used by the SMB protocol in bytes? 4406
-	*You can find the answer by going to Statistics > Protocol Hierarchy and you would find the answer rightaway.
+	
+ *You can find the answer by going to Statistics > Protocol Hierarchy and you would find the answer rightaway.
 ![bandwith](https://github.com/user-attachments/assets/46a55429-d0be-42a5-ba85-831e6f419222)
 
 2. (File => Traffic-1) Which username was utilized for authentication via SMB? Administrator
