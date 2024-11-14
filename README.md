@@ -7,14 +7,13 @@ I recently completed ZTM Academy Certification with a profound interest in techn
 My journey in Information Technology has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
 
 ## Labs
-| Skill                                         | Associated Project         |
+| Skil                                          | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | Packet Detective Lab          | <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>|
-| Dynamic Malware Analysis         | <a href="https://github.com/vladc73/Malware-Analysis-Lab">Malware Analysis Lab</a>|
-| Vulnerability Scanning         | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Identify and Remediate Vulnerabilities Lab</a>|
-| Vulnerability Remediation      | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Identify and Remediate Vulnerabilities Lab</a>|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+| Yellow RAT Lab         | <a href="https://github.com/vladc73/Malware-Analysis-Lab">Yellow RAT Lab</a>|
+| Grab The Phisher Lab         | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Grab The Phisher Lab</a>|
+| PsExec Hunt Lab      | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">PsExec Hunt Lab</a>|
+| The Crime Lab                 | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">The Crime Lab</a>|
 
 ## Tools
 ### Network
@@ -26,18 +25,6 @@ My journey in Information Technology has led me to develop a passion for cyberse
     <img src="https://img.shields.io/badge/-Procmon-777BB4?&style=for-the-badge&logo=Procmon&logoColor=white" />
 </div>
 
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Hxd-00A4EF?&style=for-the-badge&logo=Hxdt&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Cmder-4B275F?&style=for-the-badge&logo=Cmder&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Hashcal-4B275F?&style=for-the-badge&logo=Hashcal&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Hashmyfiles-4B275F?&style=for-the-badge&logo=Hashmyfiles&logoColor=white" />
-    <img src="https://img.shields.io/badge/-BinText-4B275F?&style=for-the-badge&logo=BinText&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Xorsearch-4B275F?&style=for-the-badge&logo=Xorsearch&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Floss-4B275F?&style=for-the-badge&logo=Floss&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Exeinfo-4B275F?&style=for-the-badge&logo=Exeinfo&logoColor=white" />
-</div>
-
 ## Certifications
 <div>
 <img src="https://img.shields.io/badge/-Cybersecurity_Boot_Camp-007ACC?&style=for-the-badge&logo=ZTM_Academy&logoColor=white" />
@@ -45,7 +32,7 @@ My journey in Information Technology has led me to develop a passion for cyberse
 </div>
 
 ## Projects
-- <a href="https://github.com/vladc73/Malware-Analysis-Lab">Malware Analysis Lab</a>
+- <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>
 - <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Identify and Remediate Vulnerabilities Lab</a>
 - IDS/Zeek Network Monitoring Lab
 - Set up Honeypot
