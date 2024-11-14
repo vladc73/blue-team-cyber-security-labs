@@ -16,7 +16,11 @@ During a regular IT security check at GlobalTech Industries, abnormal network tr
 1. Understanding the adversary helps defend against attacks. What is the name of the malware family that causes abnormal network traffic? PoshC2 - S0378, Jupyter Loader, Jupyter Client, wright answer "Yellow Cockatoo RAT"
 
 *In Virustotal, I enter the Hash into the search box
+
 *Click the Relations tab and scrolled down to the graph summary
+
 *In the graph summary, I click on the center icon to open the Virustotal graph
+
 *I click on "Introducing The Jupyter Infostealer/Backdoor icon
+
 *This is where the malware family is and source link
