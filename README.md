@@ -43,7 +43,7 @@ Known IOC : SHA256 hash:
 
 4.  Understanding when the broader cybersecurity community first identified the malware could help determine how long the malware might have been in the environment before detection. When was the malware first submitted to VirusTotal? 2020-10-15 02:47:37 UTC
 	
- *Under the details tab, scroll down to the History section
+*Under the details tab, scroll down to the History section
  ![firstsubmitted](https://github.com/user-attachments/assets/f3cb6b16-2326-4f1a-93f6-733c8c8ba299)
 
 5. To completely eradicate the threat from Industries’ systems, we need to identify all components dropped by the malware. What is the file name dropped by the malware in the Appdata folder? %APPDATA%\solarmarker.dat
