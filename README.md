@@ -1,22 +1,12 @@
 # Packet Detective Lab
-<a href="[https://www.linkedin.com/in/vladimir-clifton-96810529/]"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-
-I recently completed ZTM Academy Certification with a profound interest in technology and a dedication to solving complex problems.
 
 ## Objective
 Analyze network traffic to detect evasion, lateral movement, and Command and Control (C&C) activity.
 
-## Skills
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| Static Malware analysis          | <a href="https://github.com/vladc73/Malware-Analysis-Lab">Malware Analysis Lab</a>|
-| Dynamic Malware Analysis         | <a href="https://github.com/vladc73/Malware-Analysis-Lab">Malware Analysis Lab</a>|
-| Vulnerability Scanning         | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Identify and Remediate Vulnerabilities Lab</a>|
-| Vulnerability Remediation      | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Identify and Remediate Vulnerabilities Lab</a>|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+## Category: Network Forensics
+## Tactics: Execution, Defense Evasion, Command and Control
+## Tools: Wireshark
 
-## Tools
 ### Network
 <div>
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
