@@ -7,7 +7,7 @@ I recently completed ZTM Academy Certification with a profound interest in techn
 My journey in Information Technology has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
 
 ## Labs
-| Skil                                          | Associated Project         |
+| Labs                                          | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | Packet Detective Lab          | <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>|
 | Yellow RAT Lab         | <a href="https://github.com/vladc73/Malware-Analysis-Lab">Yellow RAT Lab</a>|
@@ -15,7 +15,6 @@ My journey in Information Technology has led me to develop a passion for cyberse
 | PsExec Hunt Lab      | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">PsExec Hunt Lab</a>|
 | The Crime Lab                 | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">The Crime Lab</a>|
 
-## Tools
 ### Network
 <div>
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
