@@ -3,9 +3,9 @@
 ## Objective
 Analyze network traffic to detect evasion, lateral movement, and Command and Control (C&C) activity.
 
-## Category: Network Forensics
-## Tactics: Execution, Defense Evasion, Command and Control
-## Tools: Wireshark
+### Category: Network Forensics
+### Tactics: Execution, Defense Evasion, Command and Control
+### Tools: Wireshark
 
 ### Network
 <div>
