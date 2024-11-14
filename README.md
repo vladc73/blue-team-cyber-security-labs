@@ -32,7 +32,7 @@ My journey in Information Technology has led me to develop a passion for cyberse
 
 ## Projects
 - <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>
-- <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Identify and Remediate Vulnerabilities Lab</a>
-- IDS/Zeek Network Monitoring Lab
-- Set up Honeypot
-- Wazuh to SOAR Implementation
+- <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Yellow RAT Lab </a>
+- Grab The Phisher Lab
+- PsExec Hunt Lab
+- The Crime Lab
