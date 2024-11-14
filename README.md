@@ -14,6 +14,8 @@ During a regular IT security check at GlobalTech Industries, abnormal network tr
 
 Known IOC : SHA256 hash:
 30E527E45F50D2BA82865C5679A6FA998EE0A1755361AB01673950810D071C85
+![hash](https://github.com/user-attachments/assets/66894334-b514-472a-900b-69b332651f33)
+
 
 ### Steps:
 1. Understanding the adversary helps defend against attacks. What is the name of the malware family that causes abnormal network traffic? PoshC2 - S0378, Jupyter Loader, Jupyter Client, "Yellow Cockatoo RAT"
