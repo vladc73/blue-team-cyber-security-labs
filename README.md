@@ -1,38 +1,34 @@
-# Hello, I'm Vladimir
-<a href="[https://www.linkedin.com/in/vladimir-clifton-96810529/]"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-
-I recently completed ZTM Academy Certification with a profound interest in technology and a dedication to solving complex problems.
+# Grab The Phisher Lab
 
 ## Objective
-My journey in Information Technology has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+Analyze a phishing kit mimicking a crypto exchange and uncover the malicious actors behind it.
 
-## Labs
-| Labs                                          | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| Packet Detective Lab          | <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>|
-| Yellow RAT Lab         | <a href="https://github.com/vladc73/Malware-Analysis-Lab">Yellow RAT Lab</a>|
-| Grab The Phisher Lab         | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Grab The Phisher Lab</a>|
-| PsExec Hunt Lab      | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">PsExec Hunt Lab</a>|
-| The Crime Lab                 | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">The Crime Lab</a>|
+### Category: 
+Threat Intel
+### Tactics: 
+Initial Access, Discovery, Exfiltration
 
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Process_Hacker-EF3B2D?&style=for-the-badge&logo=Process_Hacker&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GeoIP2_Database-777BB4?&style=for-the-badge&logo=GeoIP2_Database&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Regshot-777BB4?&style=for-the-badge&logo=Regshot&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Procmon-777BB4?&style=for-the-badge&logo=Procmon&logoColor=white" />
-</div>
+### Scenario:
+An attacker compromised a server and impersonated https://pancakeswap.finance/, a decentralized exchange native to BNB Chain, to host a phishing kit at https://apankewk.soup.xyz/mainpage.php. The attacker set it as an open directory with the file name "pankewk.zip". 
 
-## Certifications
-<div>
-<img src="https://img.shields.io/badge/-Cybersecurity_Boot_Camp-007ACC?&style=for-the-badge&logo=ZTM_Academy&logoColor=white" />
-<img src="https://img.shields.io/badge/-Google_Data_Analytics-FF0000?&style=for-the-badge&logo=Google&logoColor=white" />
-</div>
+Provided the phishing kit, you as a soc analyst are requested to analyze it and do your threat intel homework.
+![inside-pankewk](https://github.com/user-attachments/assets/0227d507-2242-4595-971f-fab1d66cb432)
 
-## Projects
-- <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>
-- <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Yellow RAT Lab </a>
-- Grab The Phisher Lab
-- PsExec Hunt Lab
-- The Crime Lab
+
+### Steps:
+1. Which wallet is used for asking the seed phrase? metamask
+	
+ *After unzipping the file, we have a folder named pankewk. Inside the folder Pankewk, we can see a folder named metamask folder.
+	
+ *The wallet that is used for asking the seed phrase is metamask.
+ ![inside-pankewk](https://github.com/user-attachments/assets/c4b1eb58-3857-4dbb-8f50-883e1c3b023a)
+2. What is the file name that has the code for the phishing kit? metamask.php
+	
+ *Step 1: Inside the metamask folder, we have three files:
+		a) .DS_Store
+		b) index.html
+		c) metamask.php
+	
+*The file name that has the code for the phishing kit is metamask.php.
+ ![inside-metamask-folder](https://github.com/user-attachments/assets/747302fe-096f-452c-8dae-998523d2f5e4)
+
