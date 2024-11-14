@@ -10,36 +10,29 @@ Execution, Defense Evasion, Command and Control
 ### Tools: 
 Wireshark
 
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Process_Hacker-EF3B2D?&style=for-the-badge&logo=Process_Hacker&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GeoIP2_Database-777BB4?&style=for-the-badge&logo=GeoIP2_Database&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Regshot-777BB4?&style=for-the-badge&logo=Regshot&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Procmon-777BB4?&style=for-the-badge&logo=Procmon&logoColor=white" />
-</div>
+### Scenario:
+In September 2020, your SOC detected suspicious activity from a user device, flagged by unusual SMB protocol usage. Initial analysis indicates a possible compromise of a privileged account and remote access tool usage by an attacker.
 
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Hxd-00A4EF?&style=for-the-badge&logo=Hxdt&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Cmder-4B275F?&style=for-the-badge&logo=Cmder&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Hashcal-4B275F?&style=for-the-badge&logo=Hashcal&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Hashmyfiles-4B275F?&style=for-the-badge&logo=Hashmyfiles&logoColor=white" />
-    <img src="https://img.shields.io/badge/-BinText-4B275F?&style=for-the-badge&logo=BinText&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Xorsearch-4B275F?&style=for-the-badge&logo=Xorsearch&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Floss-4B275F?&style=for-the-badge&logo=Floss&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Exeinfo-4B275F?&style=for-the-badge&logo=Exeinfo&logoColor=white" />
-</div>
+Your task is to examine network traffic in the provided PCAP files to identify key indicators of compromise (IOCs) and gain insights into the attacker’s methods, persistence tactics, and goals. Construct a timeline to better understand the progression of the attack by addressing the following questions.
 
-## Certifications
-<div>
-<img src="https://img.shields.io/badge/-Cybersecurity_Boot_Camp-007ACC?&style=for-the-badge&logo=ZTM_Academy&logoColor=white" />
-<img src="https://img.shields.io/badge/-Google_Data_Analytics-FF0000?&style=for-the-badge&logo=Google&logoColor=white" />
-</div>
+### Steps:
+1.  (File => Traffic-1) What is the amount of bandwidth being used by the SMB protocol in bytes? 4406
+	*You can find the answer by going to Statistics > Protocol Hierarchy and you would find the answer rightaway.
+![bandwith](https://github.com/user-attachments/assets/46a55429-d0be-42a5-ba85-831e6f419222)
 
-## Projects
-- <a href="https://github.com/vladc73/Malware-Analysis-Lab">Malware Analysis Lab</a>
-- <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Identify and Remediate Vulnerabilities Lab</a>
-- IDS/Zeek Network Monitoring Lab
-- Set up Honeypot
-- Wazuh to SOAR Implementation
+2. (File => Traffic-1) Which username was utilized for authentication via SMB? Administrator
+	*To hunt for the username which was utilized for authenticating to the SMB service, there are several ways to achieve this. For me, I take a look at the info column which provides details about each packet, but before we are going to investigate each packet, make sure to filter just only the interested ones. In this case, SMB protocol. To filter it, just click on filter box below the main toolbar and search for smb.
+	*After filter the packet protocol, you would see a lot of the information appears there which communicated using SMB protocol. By looking at the info column, you would directly see an interested username which used by malicious actor to authenticate to the SMB service.
+3. (File => Traffic-1) What is the name of the file that was opened? eventLog
+	*On the same with previous filtering string, if we carefully look through each packet, you would see that the user have opened a file rightaway.
+4. (File => Traffic-1) What is the timestamp of the attempt to clear the event log? (24H-UTC) 2020-09-23 16:50:16.731550
+	*By default, wireshark uses the time format which counts in a second since the packet first captured. Therefore, we have to change the time format first to achieve what we are looking for. To do this, we can go to View > Time Display Format and then choose for UTC time format.
+	*By following the packet info, there is one packet info tells us about clearing eventlog and we just look at the timestamp and submit the answer.
+5. (File => Traffic-2) An attacker used a named pipe for communication to blend in and evade detection. What is the name of the service that utilized this pipe for communication? atsvc
+	*By looking at the DCERPC protocol, I was hit by one interested protocol called “ISystemActivator” where it tells us a crucial message Remote Create Intance and it spots me to investigate it. By looking at the response, we would see the answer rightaway, but keep looking carefully.
+6.  (File => Traffic-2) What was the duration of communication between 172.16.66.1 and 172.16.66.36? 11.7247
+	*By navigating to Statistics > Conversations, on the TCP tap, you would see the information which describes the duration of communicating between those IPs.
+7. (File => Traffic-3) Which username is used to set up requests that may be considered suspicious? backdoor
+	*On the third pcap, by looking through the packet info, there is a suspicious session setup requested to set up an username which I definitely sure that it was performed by malicious actor.
+8. (File => Traffic-3) What is the name of the executable file utilized to execute processes remotely? PSEXESVC.exe
+	*from File menu > Export Object > SMB the only executable file is ..
