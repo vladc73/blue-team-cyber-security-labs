@@ -6,10 +6,10 @@ I recently completed ZTM Academy Certification with a profound interest in techn
 ## Objective
 My journey in Information Technology has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
 
-## Skills
+## Labs
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| Static Malware analysis          | <a href="[https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md]">Malware Analysis Lab</a>|
+| Packet Detective Lab          | <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>|
 | Dynamic Malware Analysis         | <a href="https://github.com/vladc73/Malware-Analysis-Lab">Malware Analysis Lab</a>|
 | Vulnerability Scanning         | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Identify and Remediate Vulnerabilities Lab</a>|
 | Vulnerability Remediation      | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Identify and Remediate Vulnerabilities Lab</a>|
