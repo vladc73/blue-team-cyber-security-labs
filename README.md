@@ -1,38 +1,21 @@
-# Hello, I'm Vladimir
-<a href="[https://www.linkedin.com/in/vladimir-clifton-96810529/]"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-
-I recently completed ZTM Academy Certification with a profound interest in technology and a dedication to solving complex problems.
+# Yellow RAT Lab
 
 ## Objective
-My journey in Information Technology has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+Investigate malware behind abnormal network traffic at GlobalTech Industries
 
-## Labs
-| Labs                                          | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| Packet Detective Lab          | <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>|
-| Yellow RAT Lab         | <a href="https://github.com/vladc73/Malware-Analysis-Lab">Yellow RAT Lab</a>|
-| Grab The Phisher Lab         | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Grab The Phisher Lab</a>|
-| PsExec Hunt Lab      | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">PsExec Hunt Lab</a>|
-| The Crime Lab                 | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">The Crime Lab</a>|
+### Category: 
+Threat Intel
 
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Process_Hacker-EF3B2D?&style=for-the-badge&logo=Process_Hacker&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GeoIP2_Database-777BB4?&style=for-the-badge&logo=GeoIP2_Database&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Regshot-777BB4?&style=for-the-badge&logo=Regshot&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Procmon-777BB4?&style=for-the-badge&logo=Procmon&logoColor=white" />
-</div>
+### Tools: 
+VirusTotal
 
-## Certifications
-<div>
-<img src="https://img.shields.io/badge/-Cybersecurity_Boot_Camp-007ACC?&style=for-the-badge&logo=ZTM_Academy&logoColor=white" />
-<img src="https://img.shields.io/badge/-Google_Data_Analytics-FF0000?&style=for-the-badge&logo=Google&logoColor=white" />
-</div>
+### Scenario:
+During a regular IT security check at GlobalTech Industries, abnormal network traffic was detected from multiple workstations. Upon initial investigation, it was discovered that certain employees' search queries were being redirected to unfamiliar websites. This discovery raised concerns and prompted a more thorough investigation. Your task is to investigate this incident and gather as much information as possible.
 
-## Projects
-- <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>
-- <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Yellow RAT Lab </a>
-- Grab The Phisher Lab
-- PsExec Hunt Lab
-- The Crime Lab
+### Steps:
+1. Understanding the adversary helps defend against attacks. What is the name of the malware family that causes abnormal network traffic? PoshC2 - S0378, Jupyter Loader, Jupyter Client, wright answer "Yellow Cockatoo RAT"
+	*In Virustotal, I enter the Hash into the search box
+	*Click the Relations tab and scrolled down to the graph summary
+	*In the graph summary, I click on the center icon to open the Virustotal graph
+	*I click on "Introducing The Jupyter Infostealer/Backdoor icon
+	*This is where the malware family is and source link
