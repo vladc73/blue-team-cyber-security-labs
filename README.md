@@ -48,7 +48,8 @@ Your task is to examine network traffic in the provided PCAP files to identify k
 6. (File => Traffic-2) What was the duration of communication between 172.16.66.1 and 172.16.66.36? 11.7247
 	
  *By navigating to Statistics > Conversations, on the TCP tap, you would see the information which describes the duration of communicating between those IPs.
-![duration](https://github.com/user-attachments/assets/807f9219-4633-4135-af0b-bf1dc79c64aa)
+![q6-1](https://github.com/user-attachments/assets/f1f77264-541a-49f9-a4dd-8e92da08bf1a)
+
  7. (File => Traffic-3) Which username is used to set up requests that may be considered suspicious? backdoor
 	
  *On the third pcap, by looking through the packet info, there is a suspicious session setup requested to set up an username which I definitely sure that it was performed by malicious actor.
