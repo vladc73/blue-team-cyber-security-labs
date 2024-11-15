@@ -35,6 +35,7 @@ Our Intrusion Detection System (IDS) has raised an alert, indicating suspicious 
 ![executable](https://github.com/user-attachments/assets/e8669653-3d06-4212-bcad-e4df05a1ce55)
 
 5. We need to know how the attacker installed the service on the compromised machine to understand the attacker’s lateral movement tactics. This can help identify other affected systems. Which network share was used by PsExec to install the service on the target machine? ADMIN$
+
 ![networkshare](https://github.com/user-attachments/assets/56e13657-22c3-45b8-86f0-855c783beeb6)
 
 6. We must identify the network share used to communicate between the two machines. Which network share did PsExec use for communication? IPC$
