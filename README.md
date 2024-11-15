@@ -94,6 +94,7 @@ Provided the phishing kit, you as a soc analyst are requested to analyze it and 
  *Inside the metamask.php file, a username is stated while greeting.
 	
  *The allies of the phish kit developer is “j1j1b1s@m3r0”
+
  ![allies](https://github.com/user-attachments/assets/6e36a403-a379-4be3-a320-36caa0ef183b)
 
 11. What is the full name of the Phish Actor? Marcus Aurelius
