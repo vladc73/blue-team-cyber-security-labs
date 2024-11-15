@@ -65,6 +65,7 @@ Provided the phishing kit, you as a soc analyst are requested to analyze it and 
  *First of all go through the folders. Inside the log folder, there we can see the log.txt file. There we can see the 3 phases.
 	
  *The seed phrase of the most recent phishing incident is “father also recycle embody balance concert mechanic believe owner pair muffin hockey”.
+
  ![inside-log-file](https://github.com/user-attachments/assets/ab194732-3a90-4785-b9d9-e9000f7db3f0)
 
 7. Which medium had been used for credential dumping? Telegram
