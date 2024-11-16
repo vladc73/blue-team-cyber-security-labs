@@ -29,10 +29,3 @@ My journey in Information Technology has led me to develop a passion for cyberse
 <img src="https://img.shields.io/badge/-Cybersecurity_Boot_Camp-007ACC?&style=for-the-badge&logo=ZTM_Academy&logoColor=white" />
 <img src="https://img.shields.io/badge/-Google_Data_Analytics-FF0000?&style=for-the-badge&logo=Google&logoColor=white" />
 </div>
-
-## Projects
-- <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>
-- <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Yellow RAT Lab </a>
-- <a href="https://github.com/vladc73/blue-team-cyber-security-labs/tree/Grab-The-Phisher">Grab The Phisher Lab</a>
-- <a href="https://github.com/vladc73/blue-team-cyber-security-labs/tree/PsExec-Hunt">PsExec Hunt Lab</a>
-- <a href="https:/github.com/vladc73/blue-team-cyber-security-labs/tree/The-Crime-Lab">The Crime Lab</a>
