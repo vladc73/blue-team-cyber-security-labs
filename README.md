@@ -10,10 +10,10 @@ My journey in Information Technology has led me to develop a passion for cyberse
 | Labs                                          | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | Packet Detective Lab          | <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>|
-| Yellow RAT Lab         | <a href="https://github.com/vladc73/Malware-Analysis-Lab">Yellow RAT Lab</a>|
-| Grab The Phisher Lab         | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Grab The Phisher Lab</a>|
-| PsExec Hunt Lab      | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">PsExec Hunt Lab</a>|
-| The Crime Lab                 | <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">The Crime Lab</a>|
+| Yellow RAT Lab         | <a href="[https://github.com/vladc73/blue-team-cyber-security-labs/tree/Yellow-RAT">Yellow RAT Lab</a>|
+| Grab The Phisher Lab         | <a href="[https://github.com/vladc73/blue-team-cyber-security-labs/tree/Grab-The-Phisher">Grab The Phisher Lab</a>|
+| PsExec Hunt Lab      | <a href="https://github.com/vladc73/blue-team-cyber-security-labs/tree/PsExec-Hunt">PsExec Hunt Lab</a>|
+| The Crime Lab                 | <a href="[https:/github.com/vladc73/blue-team-cyber-security-labs/tree/The-Crime-Lab">The Crime Lab</a>|
 
 ### Network
 <div>
@@ -33,6 +33,6 @@ My journey in Information Technology has led me to develop a passion for cyberse
 ## Projects
 - <a href="https://github.com/vladc73/blue-team-cyber-security-labs/blob/Packet-Detective-Lab/README.md">Packet Detective Lab</a>
 - <a href="https://github.com/vladc73/Identify-and-Remediate-Vulnerabilities-Lab">Yellow RAT Lab </a>
-- Grab The Phisher Lab
-- PsExec Hunt Lab
-- The Crime Lab
+- <a href="[https://github.com/vladc73/blue-team-cyber-security-labs/tree/Grab-The-Phisher">Grab The Phisher Lab</a>
+- <a href="https://github.com/vladc73/blue-team-cyber-security-labs/tree/PsExec-Hunt">PsExec Hunt Lab</a>
+- <a href="[https:/github.com/vladc73/blue-team-cyber-security-labs/tree/The-Crime-Lab">The Crime Lab</a>
