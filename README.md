@@ -13,7 +13,7 @@ My journey in Information Technology has led me to develop a passion for cyberse
 | Yellow RAT Lab         | <a href="https://github.com/vladc73/blue-team-cyber-security-labs/tree/Yellow-RAT">Yellow RAT Lab</a>|
 | Grab The Phisher Lab         | <a href="https://github.com/vladc73/blue-team-cyber-security-labs/tree/Grab-The-Phisher">Grab The Phisher Lab</a>|
 | PsExec Hunt Lab      | <a href="https://github.com/vladc73/blue-team-cyber-security-labs/tree/PsExec-Hunt">PsExec Hunt Lab</a>|
-| The Crime Lab                 | <a href="https:/github.com/vladc73/blue-team-cyber-security-labs/tree/The-Crime-Lab">The Crime Lab</a>|
+| The Crime Lab                 | <a href="https://github.com/vladc73/blue-team-cyber-security-labs/tree/The-Crime-Lab">The Crime Lab</a>|
 
 ## Certifications
 <div>
